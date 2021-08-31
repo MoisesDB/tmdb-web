@@ -21,6 +21,7 @@ const CardMovie = ({ movie }) => {
           <img
             src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
             alt=""
+            onClick={() => history.push(`/movie/${movie.id}`)}
           />
         ) : (
           <img src="/assets/images/empty.png" alt="" />

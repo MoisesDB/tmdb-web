@@ -12,6 +12,7 @@ export const CardMovieInfo = styled.div`
 
   img {
     border-radius: 8px;
+    cursor: pointer;
   }
 
   &:hover {
