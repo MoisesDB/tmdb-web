@@ -32,9 +32,7 @@ const formatMonth = (month) => {
 const formattedDate = (release_date) => {
   const date = new Date(release_date);
 
-  return `${date.getDate() + 1} de ${formatMonth(
-    date.getMonth() + 1
-  )} de ${date.getFullYear()}`;
+  return `${date.getFullYear()}`;
 };
 
 export default formattedDate;
